@@ -1,0 +1,73 @@
+{
+    "name": "members_list",
+    "title": "司改國是會議參與委員名單清冊",
+    "description": "2017 司改國是會議一共召集 101 位委員，其中過半為非法律人委員",
+    "version": "1.0",
+    "last_updated": "2017-08-12",
+    "keywords": ["2017 司改國是會議", "委員", "籌備委員"],
+    "licenses": [{
+        "url": "http://opendatacommons.org/licenses/pddl/",
+        "name": "Open Data Commons Public Domain",
+        "version": "1.0",
+        "id": "odc-pddl"
+    }],
+    "sources": [{
+        "name": "總統府司改國是會議委員名單",
+        "web": "https://justice.president.gov.tw"
+    }],
+    "contributors":[ {
+        "name": "whisky CHANG",
+    }],
+    "maintainers": [{
+        "name": "whisky CHANG",
+    }],
+    "publishers": [{
+        "name": "whisky CHANG",
+        "email": "whisky@opendata.tw",
+        "web": "http://www.opendata.tw"
+    }],
+    "resources": [{
+        "name": "members_list.json",
+        "path": "0. Datasets//",
+        "url": "https://github.com/DATA-GOV-        TW/2017_TW_Judicail_Reform/blob/master/0.%20Datasets/members_list.json",
+        "schema": {
+            "fields": [
+                {
+                    "description": "委員名字",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "description": "職稱與經歷",
+                    "name": "description",
+                    "type": "string"
+                },
+                {
+                    "description": "委員職位，籌備委員，召集人等",
+                    "name": "position",
+                     "type": "string"
+                },
+                {
+                    "description": "法律與非法律人 - 檢察官，法官，司法體系，律師，學者等",
+                    "name": "law_role",
+                    "type": "string"
+                },
+                {
+                    "description" : "聯絡方式",
+                    "name" : "email",
+                    "type" : "string"
+                },
+                {
+                    "description" : "聯絡方式",
+                    "name" : "phone",
+                    "type" : "string"
+                },
+                {
+                    "description" : "聯絡方式",
+                    "name" : "address",
+                    "type" : "string"
+                },
+            ]
+        },
+    }]
+}
